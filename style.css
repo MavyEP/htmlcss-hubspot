@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: yellow;
+}
+
+
+
+.container {
+    width: 1100px;
+    margin: auto;
+    background-color: red;
+}
+
+/* PRIMO HEADER DEVE POI ESSERE CAMBIATO IN FIXED AGGIUNGERE POI MARGIN TOP AL SECONDO */
+header section:first-child {
+    background-color: lightblue;
+}
+
+header section:nth-child(2) {
+    background-color: white;
+}
+
+header section:last-child {
+    background-color: pink;
+}
+
+#menulingua {
+    height: 50px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+#menuhubspot {
+    height: 80px;
+    width: 100%;
+
+    border: 2px solid black;
+}
+#jumbo {
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+main section:first-child {
+    background-color: grey;
+}
+
+#primoelementoprimariga{
+    height: 150px;
+    width: 100%;
+    background-color: lightblue;
+    border: 2px solid red;
+}
+
+#primoelementosecondariga{
+    height: 250px;
+    width: 100%;
+    background-color: lightblue;
+    border:  2px solid red;
+}
+
+main section:nth-child(2) {
+    background-color: lightgreen;
+}
+
+#secondoelementoprimariga {
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+}
+#secondoelementosecondariga {
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+}
+
+main section:nth-child(3) {
+    background-color: pink;
+}
+
+#terzoelementoprimariga {
+    height: 300px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: grey;
+}
+#terzoelementosecondariga {
+    height: 400px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: lightgrey;
+}
+
+#chatboxfixed {
+
+
+
+
+}
+
+footer section{
+    background-color: darkgrey;
+}
+
+#footerprimariga {
+    height: 300px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: white;
+
+}
+#footersecondariga {
+    height: 100px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: white;
+
+}
+#footerterzariga {
+    height: 200px;
+    width: 100%;
+    border: 2px solid red;
+    background-color: white;
+
+}
