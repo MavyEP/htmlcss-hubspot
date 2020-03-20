@@ -4,41 +4,34 @@
     box-sizing: border-box;
 }
 
-
 body {
     background-color: yellow;
     font-family: 'Lato', sans-serif;
 }
 
-
-
 .container {
     width: 1100px;
     margin: auto;
 }
+
 .container::after{
     content: "";
     display: table;
     clear: both;
 }
 
-
-
 /* PRIMO HEADER DEVE POI ESSERE CAMBIATO IN FIXED AGGIUNGERE POI MARGIN TOP AL SECONDO */
+
 header section:first-child {
     background-color: rgb(245, 248, 250);
     border: 1px solid rgb(203, 214, 226);
-
-
 }
 
 header section:nth-child(2) {
     background-color: white;
-
 }
 
 header section:last-child {
-
     background-image: url(immagini/sfondo.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -52,17 +45,14 @@ header section:last-child {
 }
 
 .menulingualeft {
-
     width: 50%;
     float: left;
     margin: 10px 0px;
-
 }
+
 .menulingualeft  li{
     display: inline-block;
     list-style-type: none;
-
-
 }
 
 #menulingualeft  a{
@@ -79,6 +69,7 @@ header section:last-child {
     padding-left: 10px;
     color: rgb(124, 152, 182);
 }
+
 #globe{
     color: rgb(51, 71, 91);
     font-size: 17px;
@@ -89,6 +80,7 @@ header section:last-child {
     padding-left: 20px;
     border-left: 2px solid rgb(203, 214, 226);
 }
+
 #listamenu li:first-child {
     margin-right: 20px;
 }
@@ -98,20 +90,21 @@ header section:last-child {
     width: 50%;
     float: right;
     margin: 10px 0px;
-
-
 }
 
 #menulinguaright {
     float: right;
 }
+
 #menulinguaright li{
     list-style-type: none;
     display: inline-block;
 }
+
 #menulinguaright a{
     text-decoration: none;
 }
+
 #menulinguaright ul {
     padding-right: 20px;
     padding-top: 10px;
@@ -123,9 +116,11 @@ header section:last-child {
     margin-left: 20px;
     border-radius: 3px;
 }
+
 #menulinguaright li:nth-child(2) a{
     color:  rgb(255, 122, 89);
 }
+
 #menulinguaright li:last-child {
     border: 2px solid rgb(255, 122, 89);
     background-color: rgb(255, 122, 89);
@@ -133,16 +128,16 @@ header section:last-child {
     padding: 10px 10px;
     margin-left: 10px;
 }
+
 #menulinguaright li:last-child a{
     color: white;
 }
+
 #menulinguaright li:first-child a{
     color: rgb(0, 164, 189);
 }
 
-
 .menuhubspot {
-
     width: 100%;
 }
 
@@ -157,46 +152,43 @@ header section:last-child {
 }
 
 #menuhubspotleft {
-
     float: left;
     width: 30%;
 }
+
 #menuhubspotright {
     float: right;
     width: 70%;
-
 }
+
 #menuhubspotright ul {
     list-style: none;
 }
+
 #menuhubspotright ul li{
     display: inline-block;
-
 }
+
 #menuhubspotright ul li:not(:last-child){
     display: inline-block;
     padding-right: 40px;
 }
+
 #menuhubspotright a{
     text-decoration: none;
     color: rgb(51, 71, 91);
     font-weight: bold;
     font-size: 18px;
 }
+
 #menuhubspotrightfloat{
     margin: 30px 20px ;
     float: right;
 }
 
-
-
-
-
 #jumbo {
-
     width: 100%;
     padding-right: 60%;
-
 }
 
 #jumbo h1 {
@@ -206,8 +198,8 @@ header section:last-child {
     padding-left: 10px;
     padding-top: 100px;
     padding-bottom: 15px;
-
 }
+
 #jumbo div:nth-child(2) p {
     font-family: 'Roboto Slab', serif;
     color: rgb(51, 71, 91);
@@ -215,29 +207,29 @@ header section:last-child {
     padding-left: 10px;
     padding-bottom: 15px;
     padding-top: 10px;
-
 }
+
 #jumbo p:last-child {
     font-family: 'Roboto Slab', serif;
     color: rgb(51, 71, 91);
     font-size: 13px;
     padding-left: 10px;
-
-
 }
+
 #jumbo div:nth-child(3){
     padding-left: 10px;
     padding-bottom: 45px;
     padding-top: 30px;
-
 }
-#jumbo a{
+
+#jumbo a {
     border: 25px solid rgb(255, 122, 89);
     background-color: rgb(255, 122, 89);
     border-radius: 3px;
     text-decoration: none;
     color: white;
 }
+
 #jumbo div:last-child p{
    color:rgb(51, 71, 91);
    padding-left: 10px;
@@ -245,8 +237,8 @@ header section:last-child {
    padding-right: 240px;
    font-size: 14px;
    padding-top: 5px;
-
 }
+
 main section:first-child {
     background-color: grey;
 }
