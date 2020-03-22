@@ -24,10 +24,15 @@ body {
 
 header section:first-child {
     background-color: rgb(245, 248, 250);
-    border: 1px solid rgb(203, 214, 226);
+    border-bottom: 1px solid rgb(203, 214, 226);
+    border-top: 1px solid rgb(203, 214, 226);
+    position: fixed;
+    width: 100vw;
+    z-index: 999999999999;
 }
 
 header section:nth-child(2) {
+    padding-top: 85px;
     background-color: white;
 }
 
@@ -906,4 +911,29 @@ footer section{
 
 .finefooter li{
     display: inline-block;
+}
+
+#chatboxfixed {
+    position: fixed;
+    top: 93%;
+    left: 95%;
+}
+
+#chatboxfixed i{
+    font-size: 25px;
+}
+
+#chatboxfixed a{
+    border: 20px solid rgb(255, 122, 89);
+    background-color: rgb(255, 122, 89);
+    border-radius: 100%;
+    color: white;
+}
+
+.primoelementoprimarigaright:hover{
+    transform: scale(1.05);
+}
+
+#primoelementosecondarigaleft:hover{
+    transform: scale(1.05);
 }
