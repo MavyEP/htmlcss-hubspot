@@ -513,17 +513,90 @@ main section:nth-child(2) {
     padding-bottom: 100px;
 }
 
+#secondoelementosecondariga {
+    width: 100%;
+}
 
+#secondoelementosecondariga  #mainlist>li {
+    display: inline-block;
+    position: relative;
+}
 
-
-
-
-
+#secondoelementosecondariga li {
+    list-style-type: none;
+}
 
 #secondoelementosecondariga {
-    height: 450px;
-    width: 100%;
-    border: 2px solid black;
+    color: white;
+}
+
+#secondoelementosecondariga  #number {
+    font-size: 25px;
+}
+
+#secondoelementosecondariga p:first-child , p:nth-child(2) {
+    display: inline-block;
+}
+
+#secondoelementosecondariga p:first-child {
+    vertical-align: middle;
+}
+
+ #mainlist>li {
+    padding-top: 40px;
+    padding-left: 34.33px;
+    padding-right: 33.33px;
+    padding-bottom:40px;
+    border-right: 2px solid white;
+}
+
+ #mainlist>li:last-child {
+    border-right: 0px;
+}
+
+#secondoelementosecondariga li>ul {
+    position: relative;
+    width: 200px;
+    height: 150px;
+}
+
+#secondoelementosecondariga #number {
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#secondoelementosecondariga li p:only-child {
+    position: absolute;
+    top:80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#secondoelementosecondariga p:nth-child(2){
+    font-size: 20px;
+    position: absolute;
+    top:50%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+
+#tabellaelementi {
+    border: 1px solid white;
+}
+
+#secondoelementosecondariga img {
+    font-size: 30px;
+    position: absolute;
+    top:10%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#secondoelementosecondariga {
+    margin-bottom: 150px;
 }
 
 main section:nth-child(3) {
@@ -531,23 +604,141 @@ main section:nth-child(3) {
 }
 
 #terzoelementoprimariga {
-    height: 300px;
     width: 100%;
-    border: 2px solid black;
-    background-color: grey;
+    margin-top: 80px;
 }
+
 #terzoelementosecondariga {
-    height: 400px;
     width: 100%;
-    border: 2px solid black;
-    background-color: lightgrey;
+    margin-bottom: 200px;
 }
 
-#chatboxfixed {
+#terzoelementosecondariga::after{
+    content: "";
+    display: table;
+    clear: both;
+}
 
+#terzoelementoprimariga>div:first-child {
+    width: 40%;
+    height: 300px;
+    float: left;
+}
 
+#terzoelementoprimariga .floatleft  {
+    width: 60%;
+    height: 300px;
+    float: left;
+}
 
+#terzoelementoprimariga>div:first-child p:first-child {
+    color: rgb(71, 81, 101);
+    font-weight: bold;
+    font-size:50px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
 
+#terzoelementoprimariga>div:first-child p:last-child {
+    color: rgb(61, 71, 91);
+    padding-left: 30px;
+    font-size: 25px;
+    padding-top: 10px;
+}
+
+#terzoelementoprimariga>div:first-child p:last-child span {
+    color: rgb(71, 81, 101);
+    font-weight: bold;
+}
+
+#terzoelementoprimariga .imgcontainer {
+     width: 100%;
+     height: 100%;
+}
+
+.tabellaimmagini:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.tabellaimmagini {
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.img {
+    float: left;
+    width: 150px;
+}
+
+.img img {
+    width: 100px;
+}
+
+.tabellaimmagini div:nth-of-type(3) img {
+    height: 25px;
+}
+
+.tabellaimmagini div:nth-of-type(4) img {
+    height: 25px;
+}
+
+.tabellaimmagini div {
+    padding: 10px;
+}
+
+.imgcontainer {
+    padding-top: 50px;
+}
+
+#terzoelementosecondariga>div:first-child {
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+#terzoelementosecondariga>div:last-child{
+    float: left;
+    width: 50%;
+    height: 300px;
+}
+
+#terzoelementosecondariga>div:first-child h4 {
+    color: rgb(71, 81, 101);
+    font-size: 35px;
+    padding-left: 30px;
+}
+
+#terzoelementosecondariga>div:first-child p{
+    color: rgb(71, 81, 101);
+    font-size: 17px;
+    padding-left: 30px;
+    line-height: 1.4;
+    padding-top: 10px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+#terzoelementosecondariga>div:first-child a {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(255, 122, 89);
+    border: 5px solid rgb(255, 122, 89);
+    margin-left: 30px;
+    padding-top:  20px;
+    padding-bottom:  20px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#terzoelementosecondariga>div:first-child p:last-child {
+    font-size: 13px;
+    padding-top: 50px;
+}
+
+#terzoelementosecondariga img {
+    padding-left: 70px;
 }
 
 footer section{
@@ -558,20 +749,19 @@ footer section{
     height: 300px;
     width: 100%;
     border: 2px solid red;
-    background-color: white;
-
+    background-color: white
 }
+
 #footersecondariga {
     height: 100px;
     width: 100%;
     border: 2px solid red;
     background-color: white;
-
 }
+
 #footerterzariga {
     height: 200px;
     width: 100%;
     border: 2px solid red;
     background-color: white;
-
 }
